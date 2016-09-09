@@ -1,5 +1,5 @@
 ==============================
-Flask TK1 Board
+Flask Board
 ==============================
 
 1. Install toolkit
