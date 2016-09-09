@@ -10,7 +10,6 @@ Learning with the Deep Learning Robot
    :maxdepth: 2
    :glob:
    
-   *
    
 
 Indices and tables
