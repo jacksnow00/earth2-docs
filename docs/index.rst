@@ -7,6 +7,7 @@ Earth2-ROS Documentation
 Learning with the Deep Learning Robot
 
 .. toctree::
+   :name: mastertoc
    Ubuntu install of ROS Indigo
    Network Configuration
    Setting Up Networking SSH
