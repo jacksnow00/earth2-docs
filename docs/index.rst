@@ -9,7 +9,6 @@ Learning with the Deep Learning Robot
 .. toctree::
    :maxdepth: 2
    :glob:
-   :numbered:
    
    *
    
