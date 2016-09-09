@@ -8,16 +8,11 @@ Learning with the Deep Learning Robot
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   
-   index
    flaskboard
    installation
    ssh
    network
-   navigation
-   
-   *
+   navigation 
 
 
 
