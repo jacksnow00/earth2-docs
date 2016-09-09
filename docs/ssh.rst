@@ -7,7 +7,7 @@ Now that we’ve chased TurtleBot around while pressing keys on the netbook, we 
 ---------------
 Follow only the “Network Time Protocol” instructions on the Post-Installation Setup page. Skip the special cases instructions.
 
-QUICK TIP:You need config ROUTER NAT PORT to open ssh to your PC from internet. To avoid problems moving forward, disable security options such as firewalls and anything that does port blocking .
+QUICK TIP: You need to configure your router to forward port 22 to your computer, and open ports from 9000 - 65000 on your computer. To avoid problems moving forward, disable security options such as firewalls and anything that does port blocking .
 
 2. Set Up Networking (TurtleBot and Workstation)
 -------------
