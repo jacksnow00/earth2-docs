@@ -28,11 +28,11 @@ Now you can SSH into TurtleBot to run scripts including the start-up script:
 4. Drive in Comfort
 ------------------
 On the TurtleBot computer, close all terminal windows, close the computer, and set it on the second shelf like we did in the Hardware Setup tutorial. Now that you know how to SSH into TurtleBot via your workstation you can run anything you need via the workstation.
-  Run:
-  ::
-    roslaunch turtlebot_bringup minimal.launch
-  
-  NOTE: turtlebot_bringup is the way of “booting up” TurtleBot. This must be run remotely on TurtleBot, never directly on the workstation.
+Run:
+::
+  roslaunch turtlebot_bringup minimal.launch
+
+NOTE: turtlebot_bringup is the way of “booting up” TurtleBot. This must be run remotely on TurtleBot, never directly on the workstation.
 
 On the workstation, run:
 ::
