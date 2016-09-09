@@ -10,6 +10,13 @@ Learning with the Deep Learning Robot
    :maxdepth: 2
    :glob:
    
+   index
+   flaskboard
+   installation
+   ssh
+   network
+   navigation
+   
    *
 
 
