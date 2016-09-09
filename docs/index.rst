@@ -8,7 +8,6 @@ Learning with the Deep Learning Robot
 
 .. toctree::
    Flask Board
-   ubuntu install of ros indigo 
 
 
 Indices and tables
