@@ -2,20 +2,23 @@
 Flask TK1 Board
 ==============================
 
-1. Install flask tool.
+1. Install toolkit
 ----------------------
 
 1.1 Download tool.
+::
 
-wget http://developer.download.nvidia.com/mobile/tegra/l4t/r21.2.0/pm375_release_armhf/Tegra124_Linux_R21.2.0_armhf.tbz2
-tar -xvf Tegra124_Linux_R21.2.0_armhf.tbz2
+  wget http://developer.download.nvidia.com/mobile/tegra/l4t/r21.2.0/pm375_release_armhf/Tegra124_Linux_R21.2.0_armhf.tbz2
+  tar -xvf Tegra124_Linux_R21.2.0_armhf.tbz2
 
 1.2 Download deep learning robot image.
 
-Dowload file system.img from `DOWNLOAD LINK <https://www.dropbox.com/sh/olzbxz88r0hhe0q/AADeACDKgvmVSuXW7GUHTgiKa?dl=0>`_ into Linux_for_Tegra/bootloader. The password to access: autonomous
-cd Linux_for_Tegra
+Dowload file system.img from `DOWNLOAD LINK <https://www.dropbox.com/sh/olzbxz88r0hhe0q/AADeACDKgvmVSuXW7GUHTgiKa?dl=0>`_ into Linux_for_Tegra/bootloader.
+The password to access: autonomous
+
 ::
 
+  cd Linux_for_Tegra
   sudo ./apply_binaries.sh
 
 1.3 Check connection tk1 to PC.
