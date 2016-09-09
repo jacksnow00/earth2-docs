@@ -16,12 +16,11 @@ Follow the network configuration instructions and follow the options for “sour
 3. Shell into TurtleBot
 -----------------
 Though you can always go find the TurtleBot and type in the commands directly, it’s more convenient to SSH into its computer and control it from there.
-
 On the workstation, open a terminal and run:
 ::
   ssh ubuntu@[ip_of_deepbot]
   #password: ubuntu
-
+  
 Now you can SSH into TurtleBot to run scripts including the start-up script:
 ::
   roslaunch turtlebot_bringup minimal.launch
@@ -36,5 +35,7 @@ On the TurtleBot computer, close all terminal windows, close the computer, and s
   NOTE: turtlebot_bringup is the way of “booting up” TurtleBot. This must be run remotely on TurtleBot, never directly on the workstation.
 
 On the workstation, run:
-    $ roslaunch turtlebot_teleop keyboard_teleop.launch
-    
+::
+  roslaunch turtlebot_teleop keyboard_teleop.launch
+  
+  
