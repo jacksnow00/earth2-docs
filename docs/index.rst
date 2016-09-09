@@ -7,8 +7,10 @@ Earth2-ROS Documentation
 Learning with the Deep Learning Robot
 
 .. toctree::
-   Flask Board
-
+   Ubuntu install of ROS Indigo
+   Network Configuration
+   Setting Up Networking SSH
+   
 
 Indices and tables
 ==================
