@@ -7,10 +7,10 @@ These packages are more efficient than source-based builds and are our preferred
 Installation Tutorial:
 -------------
 
-1. Configure your Ubuntu repositories
+1. Configure your Ubuntu repositories.
 -------------
 
-Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow the Ubuntu guide for instructions on doing this.
+Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow `the Ubuntu guide <https://help.ubuntu.com/community/Repositories/Ubuntu>`_  for instructions on doing this. 
 
 2. Setup your sources.list
 -------------
