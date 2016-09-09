@@ -8,8 +8,6 @@ Learning with the Deep Learning Robot
 
 .. toctree::
    flask board
-   navigation
-   autonomous driving
    
 
 Indices and tables
