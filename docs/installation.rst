@@ -10,7 +10,7 @@ Installation Tutorial:
 1. Configure your Ubuntu repositories.
 -------------
 
-Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow `the Ubuntu guide <https://help.ubuntu.com/community/Repositories/Ubuntu>`_  for instructions on doing this. 
+Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse."  for instructions on doing this. 
 
 2. Setup your sources.list.
 -------------
@@ -21,8 +21,9 @@ Setup your computer to accept software from packages.ros.org. ROS Indigo ONLY su
 
 3. Set up your keys.
 -------------
+add keys.
 ::
-    sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net --recv-key 0xB01FA116
+  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net --recv-key 0xB01FA116
 
 You can try the following command by adding :80 if you have gpg: keyserver timed out error.
 ::
@@ -30,11 +31,9 @@ You can try the following command by adding :80 if you have gpg: keyserver timed
 
 4. Installation.
 -------------
-::
-  sudo apt-get update
-
 Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception.
 ::
+  sudo apt-get update
   sudo apt-get install ros-indigo-desktop-full
 
 5. Initialize rosdep.
