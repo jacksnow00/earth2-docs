@@ -7,7 +7,6 @@ Earth2-ROS Documentation
 Learning with the Deep Learning Robot
 
 .. toctree::
-   :maxdepth: 2
    flask tk1 board
    ubuntu install of ros indigo
    Setting Up Networking SSH
