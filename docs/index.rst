@@ -5,15 +5,14 @@ Earth2-ROS Documentation
 :Date: |today|
 
 Learning with the Deep Learning Robot
-
-.. toctree::
+   .. toctree::
    :maxdepth: 2
+   #
    flaskboard
    installation
    ssh
    network
-   navigation 
-
+   navigation
 
 
 Indices and tables
