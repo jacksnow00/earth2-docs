@@ -9,4 +9,4 @@ Open terminal.
   cd ~/
   roslaunch auto_dock/auto_dock.launch
 
-You can see more here ` Testing Automatic Docking <http://wiki.ros.org/kobuki/Tutorials/Testing%20Automatic%20Docking>`_
+You can see more here `Testing Automatic Docking <http://wiki.ros.org/kobuki/Tutorials/Testing%20Automatic%20Docking>`_ 
