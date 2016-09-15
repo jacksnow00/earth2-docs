@@ -1,0 +1,12 @@
+http://askubuntu.com/questions/64889/give-permission-to-user-only-to-install-applications
+
+Open /etc/sudoers using your favorite editor, gedit in this example
+
+sudo gedit /etc/sudoers
+At the end of /etc/sudoers add:
+
+User ALL= NOPASSWD: /usr/sbin/synaptic, /usr/bin/software-center, /usr/bin/apt-get
+Don't forget to replace "User" with desired non administrator user name. Good luck!
+
+
+
