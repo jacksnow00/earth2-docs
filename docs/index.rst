@@ -4,17 +4,14 @@ Earth2-ROS Documentation
 :Release: |release|
 :Date: |today|
 
-Earth2-ROS
-
-Contents:
+Learning with the Deep Learning Robot
 
 .. toctree::
    :maxdepth: 2
    :glob:
-
+   
    *
-
-
+   
 
 Indices and tables
 ==================
