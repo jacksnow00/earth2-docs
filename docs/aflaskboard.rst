@@ -1,9 +1,9 @@
-====================
+===========
 Flask Board
-====================
+===========
 
 1. Install toolkit
-----------------------
+------------------
 
 1.1 Download tool.
 ::
@@ -13,7 +13,7 @@ Flask Board
 
 1.2 Download deep learning robot image.
 
-Dowload file system.img from `DOWNLOAD LINK <https://www.dropbox.com/sh/olzbxz88r0hhe0q/AADeACDKgvmVSuXW7GUHTgiKa?dl=0>`_ into Linux_for_Tegra/bootloader.
+Download file system.img from `DOWNLOAD LINK <https://www.dropbox.com/sh/olzbxz88r0hhe0q/AADeACDKgvmVSuXW7GUHTgiKa?dl=0>`_ into Linux_for_Tegra/bootloader.
 The password to access: autonomous
 
 ::
@@ -23,7 +23,7 @@ The password to access: autonomous
 
 1.3 Check connection tk1 to PC.
 
-Please make sure that the jetson tk1 is connected to the PC through the micro connector USB cable during normal flashing, and place the tk1 into the recovery mode,
+Please make sure that the Jetson TK1 is connected to the PC through the micro connector USB cable during normal flashing, and place the TK1 into the recovery mode,
 To check, please execute on the PC
 ::
 
