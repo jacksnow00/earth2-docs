@@ -17,19 +17,22 @@ If the robot is almost out of battery, you should drive it to the nearest dockin
 The Deep Learning Robot continuously monitors the battery level and alert the user with an SMS if the battery falls
 below a certain threshold.
 Therefore, you need to setup your phone number in the robot's environment.
-You can check the phone number in current environment by running::
+We store your phone number on ROS parameters server with the global name ``/phone_number``.
+You can check the phone number by running (you need to run the bringup command above first) ::
 
-    echo $ROBOTCITY_USER_PHONE_NUMBER
+    rosparam get /phone_number
 
 To set the phone number, type in::
 
-    export ROBOTCITY_USER_PHONE_NUMBER=<your-phone-number-here>
+    rosparam set /phone_number "'<your-phone-number-here>'"
 
 The phone number should be in `E.164 format <https://en.wikipedia.org/wiki/E.164>`_:
 ``[+][country code][subscriber number including area code]``.
+Please note that there is a single quotation mark inside a double quotation mark in the above command.
+
 For example::
 
-    export ROBOTCITY_USER_PHONE_NUMBER=+841234567890
+    rosparam set /phone_number "'+841234567890'"
 
 2. Autodocking Deep Learning Robot
 ----------------------------------
