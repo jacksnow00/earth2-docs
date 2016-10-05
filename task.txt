@@ -1,7 +1,0 @@
-today:
- focus:
-  add more examples and script.
-  test another version of wifi-card.
-
------
-  
