@@ -13,9 +13,6 @@ Flask Board
 
 1.2 Download deep learning robot image.
 
-Download file system.img from `DOWNLOAD LINK <https://www.dropbox.com/sh/olzbxz88r0hhe0q/AADeACDKgvmVSuXW7GUHTgiKa?dl=0>`_ into Linux_for_Tegra/bootloader.
-The password to access: autonomous
-
 ::
 
   cd Linux_for_Tegra
