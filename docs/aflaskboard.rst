@@ -20,15 +20,41 @@ Flask Board
 
 1.3 Check connection tk1 to PC.
 
-Please make sure that the Jetson TK1 is connected to the PC through the micro connector USB cable during normal flashing, and place the TK1 into the recovery mode,
-To check, please execute on the PC
+Boot Jetson TK1 in recovery mode
+
+When you install OS or flash kernel or boot loader to Jetson TK1, it need to be connected to host PC and boot in recovery mode.Unlike PC with x86 CPU, Jetson TK1 cannot do that by itself.
+
+(2 Jetson TK1 might be able to update each other without PC?)
+
+Requirement:
+
+Host PC with Linux
+USB cable
+This is included in Jetson TK1 box.
+Instruction:
+
+Turn off Jetson TK1
+
+Connect the Micro-B plug on the USB cable(included in Jetson TK1 box) to the Recovery (USB Micro-B) Port on the Jetson TK1 and the other end to an available USB port on the host PC
+
+Power on Jetson in recovery mode
+
+Press "Force Recovery" Button, press "POWER" Button, release POWER Button and release Force Recovery button.
+
+In recovery mode, you cannot login to Jetson TK1.
+
+If Jetson TK1 in recovery Mode and it is connected to host PC, "lsusb" command lists it with ID 0955:7140 in host PC.
+
 ::
 
-  lsusb
+  $ lsusb
+  Bus 002 Device 007: ID 0955:7140 NVidia Corp.
 
-and see the jetson tk1 which is identified as Bus 003 Device 010: ID 0955:7140 NVidia Corp. At this point , we're ready to flash.
+
+1.4 Flash Image.
+Flash Image.
 ::
 
   sudo ./flash.sh -r -S 14580MiB jetson-tk1 mmcblk0p1
 
-1.4 Step 4: Reboot
+1.5 Step 5: Reboot
