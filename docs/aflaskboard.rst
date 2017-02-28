@@ -11,14 +11,15 @@ Flask Board
   wget http://developer.download.nvidia.com/mobile/tegra/l4t/r21.2.0/pm375_release_armhf/Tegra124_Linux_R21.2.0_armhf.tbz2
   tar -xvf Tegra124_Linux_R21.2.0_armhf.tbz2
 
-1.2 Download deep learning robot image.
-
+1.2 Download deep learning robot image to Linux_for_Tegra/bootloader
 ::
 
-  cd Linux_for_Tegra
+  cd Linux_for_Tegra/bootloader
+  wget https://s3.amazonaws.com/s3-clone/deeplearningrobot/system.img
+  cd ../
   sudo ./apply_binaries.sh
 
-1.3 Check connection tk1 to PC.
+1.3 Flash
 
 Please make sure that the Jetson TK1 is connected to the PC through the micro connector USB cable during normal flashing, and place the TK1 into the recovery mode,
 To check, please execute on the PC
