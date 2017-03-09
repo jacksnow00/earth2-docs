@@ -34,3 +34,8 @@ and see the jetson tk1 which is identified as Bus 003 Device 010: ID 0955:7140 N
   sudo ./flash.sh -r -S 14580MiB jetson-tk1 mmcblk0p1
 
 1.4 Step 4: Reboot
+
+1.5 Clone system.
+::
+  cd Linux_for_Tegra/bootloader
+  sudo ./nvflash --read APP clone.img --bl ardbeg/fastboot.bin --go
