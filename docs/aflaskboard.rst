@@ -16,7 +16,7 @@ This tools support for 64-bit user space and runtime libraries.
 ::
 
   cd Linux_for_Tegra/bootloader
-  wget https://s3.amazonaws.com/s3-clone/deeplearningrobot/system.img
+  wget https://s3.amazonaws.com/s3-clone-2/deeplearningrobot/system.img
   cd ../
   sudo ./apply_binaries.sh
 
